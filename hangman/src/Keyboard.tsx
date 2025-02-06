@@ -47,7 +47,9 @@ export function Keyboard({
         style={{ 
             display: 'grid', 
             gridTemplateColumns: 'repeat(auto-fit, minmax(75px, 1fr))', 
-            gap: '.5rem' 
+            gap: '.65rem',
+            maxWidth: '900px',
+            margin: '0 auto'
         }}
     >
         {KEYS.map(key => {

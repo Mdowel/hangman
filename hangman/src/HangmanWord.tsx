@@ -11,10 +11,11 @@ HangmanWordProps) {
             style={{ 
                 display: 'flex', 
                 gap: '.25em', 
-                fontSize: '6rem', 
+                fontSize: '5.25rem', 
                 fontWeight: 'bold', 
                 textTransform: 'uppercase', 
-                fontFamily: 'monospace' 
+                fontFamily: 'monospace', 
+                textAlign: 'center'
             }}
         >
             {wordToGuess.split('').map((letter, index) => (
@@ -23,7 +24,7 @@ HangmanWordProps) {
                         style={{
                             visibility: guessedLetters.includes(letter) || reveal
                             ? "visible" : "hidden",
-                            color: !guessedLetters.includes(letter) && reveal ? 'red' : 'black'
+                            color: !guessedLetters.includes(letter) && reveal ? '#971E0C' : 'black'
                         }}>
                         {letter}
                     </span>

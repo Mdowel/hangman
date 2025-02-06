@@ -67,15 +67,17 @@ function App() {
   return ( 
     <div 
       style={{
-        maxWidth: '800px',
         display: 'flex',
         flexDirection: 'column',
         gap: '2rem',
         margin: '0 auto',
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor: '#A1A0A6',
+        padding: '1em 10em',
+        minWidth: '500px'
       }}
     >
-      <div style={{ fontSize: '2rem', textAlign: 'center' }}>
+      <div style={{ fontSize: '2rem', textAlign: 'center', margin: '.75em 0 0.5em 10px' , color: '#ECE33D'}}>
         {isWinner && 'Winner! - Refresh to try again'}
         {isLoser && 'Nice Try - Refresh to try again'}
       </div>
