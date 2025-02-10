@@ -10,6 +10,7 @@ A classic Hangman game where players guess letters to reveal a word before runni
 * [![React][React.js]][React-url]
 * TypeScript
 * CSS
+* Vite
 
 
 <!-- CONTACT -->
